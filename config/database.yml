@@ -15,7 +15,7 @@ development:
   database: scraper_development
   pool: 5
   username: root
-  password:
+  password: 'myroot'
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: scraper_test
   pool: 5
   username: root
-  password:
+  password: 'myroot'
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -38,5 +38,5 @@ production:
   database: scraper_production
   pool: 5
   username: root
-  password:
+  password: 'myroot'
   socket: /var/run/mysqld/mysqld.sock
